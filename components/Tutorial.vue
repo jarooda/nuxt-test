@@ -16,6 +16,10 @@ export default {
         {
           name: 'Methods',
           link: '/methods'
+        },
+        {
+          name: 'Computed',
+          link: '/computed'
         }
       ]
     }

@@ -18,7 +18,10 @@ module.exports = {
   collectCoverage: true,
   collectCoverageFrom: [
     '<rootDir>/components/**/*.vue',
-    '<rootDir>/pages/**/*.vue'
+    '<rootDir>/pages/**/*.vue',
+    // ? this repository only focus in pages/**/*.vue
+    '!<rootDir>/pages/index.vue',
+    '!<rootDir>/components/Tutorial.vue'
   ],
   testEnvironment: 'jsdom'
 }
