@@ -20,6 +20,10 @@ export default {
         {
           name: 'Computed',
           link: '/computed'
+        },
+        {
+          name: 'Watcher',
+          link: '/watcher'
         }
       ]
     }
