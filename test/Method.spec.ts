@@ -13,7 +13,7 @@ describe('Testing Methods', () => {
     expect(wrapper.exists()).toBe(true)
   })
 
-  it('Should test add method', () => {
+  it('Should test convertToNumber method', () => {
     expect((wrapper.vm as any).convertToNumber(19)).toBe(19)
     expect((wrapper.vm as any).convertToNumber('hello')).toBe(0)
     expect((wrapper.vm as any).convertToNumber('82349')).toBe(82349)
