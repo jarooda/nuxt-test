@@ -1,7 +1,7 @@
 import { shallowMount } from '@vue/test-utils'
 import ComputedFile from '@/pages/computed/index.vue'
 
-describe('Testing Methods', () => {
+describe('Testing Computed', () => {
   const wrapper = shallowMount(ComputedFile)
 
   it('Should test that the component is rendering', () => {
