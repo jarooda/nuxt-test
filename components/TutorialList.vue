@@ -24,6 +24,14 @@ export default {
         {
           name: 'Watcher',
           link: '/watcher'
+        },
+        {
+          name: 'Life Cycle',
+          link: '/lifecycle'
+        },
+        {
+          name: 'Child and Parent Access',
+          link: '/emit-ref'
         }
       ]
     }

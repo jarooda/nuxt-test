@@ -21,7 +21,7 @@ module.exports = {
     '<rootDir>/pages/**/*.vue',
     // ? this repository only focus in pages/**/*.vue
     '!<rootDir>/pages/index.vue',
-    '!<rootDir>/components/Tutorial.vue'
+    '!<rootDir>/components/TutorialList.vue'
   ],
   testEnvironment: 'jsdom'
 }
